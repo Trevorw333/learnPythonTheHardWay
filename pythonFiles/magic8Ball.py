@@ -13,6 +13,4 @@ def getAnswer(answerNumber):
     elif answerNumber ==6:
         return "last one"
 
-r = random.randint(1,6)
-fortune = getAnswer(r)
-print(fortune)
+print(getAnswer(random.randint(1,6)))
